@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: linear-gradient(rgb(47, 133, 173),#4ad4e7);
+    height: 100vh;
+   
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    height: 60px;
+}
+.header {
+    /* margin: 0px 37%; */
+    color:linear-gradient(rgb(204, 222, 230),#cacfd0);
+    font-size: 30px;
+    /* align-items: center;
+     */
+     text-align: center;
+     margin-bottom: 10px;
+}
+
+.container{
+    max-width: 995px;
+    margin: auto;
+    border: 0px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    height: 60vh;
+    background: (rgb(46, 180, 237),#cacfd0);
+    padding: 10px 10px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.message-left{
+    /* display: none; */
+    background-color: rgb(249, 244, 244);
+    float: left;
+    clear: both;
+    width: 50%;
+    padding: 6px 50px;
+    border: 1px solid;
+    color: black;
+    font-size: 20px;
+    border-radius: 255px;
+    margin-bottom: 25px;
+}
+.message-right{
+    /* display: none; */
+    background-color: rgb(249, 244, 244);
+    float: right;
+    clear: both;
+    width: 50%;
+    padding: 6px 50px;
+    border: 1px solid;
+    color: black;
+    font-size: 20px;
+    border-radius: 255px;
+    margin-bottom: 25px;
+}
+
+.send-message{
+    
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+#msginp
+{
+    margin-top: 20px;
+    width: 63%;
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 30px;
+    padding: 0px 10px;
+    background: linear-gradient(rgb(46, 180, 237),#cacfd0);
+}
+
+button{
+    border-radius: 50%;
+    height: 30px;
+    padding: 1px 10px;
+    background: linear-gradient(rgb(19, 143, 196),#cacfd0);
+}
+
+@media (max-width: 500px) {
+
+  .container{
+    height: 72vh;
+  }
+  .message-right{
+    background-color: rgb(249, 244, 244);
+    font-size: 15px;
+    width: 70%;
+}
+.message-left{
+    background-color: rgb(249, 244, 244);
+    font-size: 15px;
+    width: 70%;
+}
+}
